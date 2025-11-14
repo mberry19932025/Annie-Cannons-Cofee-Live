@@ -117,7 +117,7 @@ nav ul {
     padding: 2rem;
 }
 
-/* card  styles */
+/* card shared styles */
 .card {
     background-color: var(--White);
     border-radius: 10px;
@@ -195,11 +195,7 @@ footer p {
 
     .coffee-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1rem;
-    }
-
-    header {
-        jistify-content: space-between;
+        gap: 1.5rem;
     }
 }
 
@@ -207,12 +203,12 @@ footer p {
 @media (min-width: 650px) and (max-width: 999px) {
     .card1 {
         grid-template-columns: 1fr 1fr;
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     .coffee-grid {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .content {
@@ -235,5 +231,3 @@ footer p {
     .coffee-grid {
         grid-template-columns: 1fr;
         gap: 1rem;
-    }
-}
