@@ -100,6 +100,7 @@ nav ul {
     gap: 2rem;
     align-items: center;
     padding: 2rem;
+    
 }
 
 .content h1 {
@@ -118,14 +119,7 @@ nav ul {
 }
 
 /* card  styles */
-.card {
-    background-color: var(--White);
-    border-radius: 10px;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card img {
+.coffee-card img {
     max-width: 100%;
     border-radius: 5px;
 }
