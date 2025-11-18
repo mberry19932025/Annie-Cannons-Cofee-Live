@@ -200,9 +200,8 @@ footer p {
         gap: 1rem;
     }
 
-    header {
-        jistify-content: space-between;
-    }
+   
+    
 }
 
 /*TABLET VIEW: 650px - 999px */
@@ -222,7 +221,7 @@ footer p {
     .content {
         text-align: left;
     }
-}
+
 
 /*MOBILE VIEW: below 650px */
 @media screen and (max-width: 649px) {
